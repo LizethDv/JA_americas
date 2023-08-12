@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url(public/Kinghood.ttf);
+
+
+body{
+    background-image: url(Sagira/public/img/Home/Home_background.png);
+    background-image: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 30px;
+}
+
+li{
+    margin-right: 30px;
+    color: #EEECF2;
+    font-family: "Kinghood";
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.logo img{
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.logo p{
+    width: 100%;
+    font-size: 35px;
+    text-align-last: center;
+    color: #EEECF2;
+    font-family: "Kinghood";
+}
+

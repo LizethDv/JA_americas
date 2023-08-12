@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Sagira</title>
+        <link rel="icon" href="/public/img/ícono.png" type="image/x-icon">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link 
+            href="/public/style/custom.css" 
+            rel="stylesheet"
+        />
+        <script 
+            defer 
+            src="index.js">
+        </script>
+    </head>
+    <body>
+        <!-- navegador -->
+        <div class="nav3">
+            <img id="logo" src="/public/img/logo1.png"/>
+            <nav class="nav">
+
+                <li>
+                  <a 
+                    href="/Home/index.html">
+                      Home
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="/Tienda/velas/index.html">
+                      Tienda
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="/Contacto/index.html">
+                      Contacto
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="/sobre_sagira/index.html">
+                      Nosotros
+                  </a>
+                </li>
+            </nav>
+            <!-- buscador -->
+            <nav class="buscador">
+              <div class="d-flex-row">
+                  <form class="d-flex">
+                      <input 
+                          class="form-control me-2" 
+                          type="search" 
+                          placeholder="Buscar" 
+                          aria-label="Search"
+                      />
+                      <button 
+                          class="btn btn-outline-sagira" 
+                          type="submit">
+                              <img 
+                                  src="/public/img/lupa.png"/>
+                      </button>
+                  </form>
+              </div>
+            </nav>
+          </div>
+        <!-- contenedor -->
+            <div 
+                class="container-fluid2">
+                <div 
+                    class="column">
+                    <!-- primera parte del contenedor, aquí está la imagen y el h1-->
+                    <div 
+                        class="col">
+                        <h2 
+                            class="color-overlay2 d-flex flex-column justify-content-center align-items-center">
+                                Contacto
+                        </h2>        
+                            <img 
+                                class="img_cont" 
+                                src="/public/img/contacto/nav_contacto.png"
+                            />
+                    </div>
+                    <!-- Formulario -->
+                    <h3 
+                        class="container-fluid col-8 col-6 justify-content-md-center">
+                            Queremos escuchar tus dudas, comentarios y sugerencias.
+                            <br>
+                            Escrìbenos, nos pondremos en contacto contigo.
+                    </h3>
+                        <form>
+                            <div 
+                                class="container-fluid col-6 justify-content-md-center">
+                                    <div 
+                                        class="input-group mb-3">
+                                            <label>
+                                                <span 
+                                                    class="input-group-text" 
+                                                    id="basic-addon1">
+                                                        Nombre
+                                                </span>
+                                            </label>
+                                                <input 
+                                                    type="text" 
+                                                    class="form-control" 
+                                                    placeholder="Tu nombre y apellido" 
+                                                    aria-label="Nombre de usuario" 
+                                                    aria-describedby="basic-addon1"
+                                                />
+                                    </div>
+                                    <div 
+                                        class="input-group mb-3">
+                                            <label>
+                                                <span 
+                                                    class="input-group-text" 
+                                                    id="basic-addon1">
+                                                        Correo
+                                                </span>
+                                            </label>
+                                                <input 
+                                                    type="text" 
+                                                    class="form-control" 
+                                                    placeholder="example@example.com" 
+                                                    aria-label="Nombre de usuario" 
+                                                    aria-describedby="basic-addon1">
+                                    </div>
+                                    <div 
+                                        class="input-group">
+                                            <span 
+                                                class="input-group-text">
+                                                    Mensaje
+                                            </span>
+                                                <textarea 
+                                                    class="form-control" 
+                                                    placeholder="Hola, necesito ayuda con..." 
+                                                    aria-label="With textarea">
+                                                </textarea>
+                                    </div>
+                                    <div 
+                                        class="vstack gap-2 col-md-5 mx-auto" 
+                                        style="margin: 1rem">
+                                            <button 
+                                                type="button" 
+                                                class="btn btn-outline-sagira">
+                                                    Enviar
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                class="btn btn-outline-sagira">
+                                                    Borrar
+                                            </button>
+                                    </div>
+                                    <!-- Los botones con js -->
+                                    <div class="contenedor">
+                                        <div 
+                                            class="terminosycondiciones">
+                                                <h3>
+                                                    Términos y condiciones
+                                                </h3>
+                                                    <div 
+                                                        id="contenido1">
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo corporis molestias veniam laborum maiores vero impedit, hic tempore distinctio odio officiis iste? Atque aperiam debitis reiciendis voluptatum voluptatem, officiis minus!
+                                                            </p>
+                                                    </div>
+                                                        <button 
+                                                            onclick="muestra_oculta('contenido1')" 
+                                                            type="button" 
+                                                            form="contenido" 
+                                                            class="btn btn-outline-sagira" 
+                                                            style="margin: 1rem">
+                                                                Conocer
+                                                        </button>
+                                        </div>
+                                        <div 
+                                            class="privacidad">
+                                                <h3>
+                                                    Políticas de privacidad
+                                                </h3>
+                                                    <div 
+                                                        id="contenido2">
+                                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo corporis molestias veniam laborum maiores vero impedit, hic tempore distinctio odio officiis iste? Atque aperiam debitis reiciendis voluptatum voluptatem, officiis minus!
+                                                            </p>
+                                                    </div>
+                                                        <button 
+                                                            onclick="muestra_oculta('contenido2')" 
+                                                            form="contenido" 
+                                                            class="btn btn-outline-sagira" 
+                                                            style="margin: 1rem">
+                                                                Conocer
+                                                        </button>
+                                        </div>
+                                    </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div 
+                class="accordion" 
+                id="accordionExample">
+                    <div 
+                        class="accordion-item">
+                            <h2
+                                class="accordion-header bg-success p-2 text-dark bg-opacity-25" 
+                                id="headingOne">
+                                    <button
+                                        class="accordion-button bg-success p-2 text-dark bg-opacity-25"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                            Sobre Sagira
+                                    </button>
+                            </h2>
+                                <div 
+                                    id="collapseOne" 
+                                    class="accordion-collapse collapse show" 
+                                    aria-labelledby="headingOne" 
+                                    data-bs-parent="#accordionExample">
+                                        <div 
+                                            class="accordion-body bg-success p-2 text-dark bg-opacity-25">
+                                                <div 
+                                                    class="list-group bg-success p-2 text-white">
+                                                        <a 
+                                                            href="/sobre_sagira/index.html"
+                                                            class="list-group-item list-group-item-action active bg-success p-2 text-white"
+                                                            aria-current="true">
+                                                                Nosotros
+                                                        </a>
+                                                        <a 
+                                                            href="../discovery/index.html"
+                                                            class="list-group-item list-group-item-action bg-success p-2 text-white">
+                                                                Descubrir
+                                                        </a>
+                                                </div>
+                                        </div>
+                                </div>
+                    </div>
+                    <div 
+                        class="accordion-item">
+                            <h2 
+                                class="accordion-header bg-success p-2 text-dark bg-opacity-25" 
+                                id="headingTwo">
+                                    <button
+                                        class="accordion-button collapsed bg-success p-2 text-dark bg-opacity-25"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                            Atención al cliente
+                                    </button>
+                            </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse collapse bg-success p-2 text-dark bg-opacity-25"
+                                    aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                        <div 
+                                            class="accordion-body">
+                                                <div 
+                                                    class="list-group">
+                                                        <a 
+                                                            href="../Contacto/index.html"
+                                                            class="list-group-item list-group-item-action active bg-success p-2 text-white"
+                                                            aria-current="true">
+                                                                Contacto
+                                                        </a>
+                                                        <a 
+                                                            class="sr-only sr-only list-group-item list-group-item-action bg-success p-2 text-white" 
+                                                            href="../Contacto/index.html#contenido">
+                                                                Términos y condiciones
+                                                        </a>
+                                                </div>
+                                        </div>
+                                </div>
+                    </div>
+            </div>
+            <div 
+                class="container-fluid2">
+                    <div 
+                        class="row justify-content-between bg-success p-2 text-dark bg-opacity-25">
+                            <div 
+                                class="redes col-6 d-flex align-items-center">
+      
+                                <a href="https://www.instagram.com/sagira_cs/"> 
+                                  <img 
+                                        class="icono_ig" 
+                                        src="/public/img/instagram.png" 
+                                    />
+                                  </a>
+                            </div>
+        <!-- firma -->
+            <div 
+                class="firma col-6 d-flex justify-content-end">
+                    <p 
+                        class="text-right mr-2">
+                            Diseñado y creado por Lizeth Domínguez Vivas
+                    </p>
+                    <img 
+                        class="laurel" 
+                        src="/public/img/laurel.png"
+                    />
+            </div>
+                    </div>
+            </div>  
+          </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous">
+        </script>    
+    </body>
+</html>
