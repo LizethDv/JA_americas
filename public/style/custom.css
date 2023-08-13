@@ -4,8 +4,8 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url(public/Kinghood.ttf);
-@import url(public/badoga.ttf);
+@import url(./public/Kinghood.ttf);
+@import url(./public/badoga.ttf);
 :root,
 [data-bs-theme=light] {
   --bs-blue: #15585e;
